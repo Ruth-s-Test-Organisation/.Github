@@ -1,5 +1,4 @@
 topics_for_assignment: false # Disable the ability to set topics on repos outside of this file
-
 teams:
   Admin:
     members:
