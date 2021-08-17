@@ -34,13 +34,13 @@ repositories:
   # All Repositories not assigned to other groups.
   default:
     teams_clean: true
-      teams:
+    teams:
         Admin: admin
         Security Team: maintain
-      issues:
+    issues:
         auto_label:
           - needs-triage
-      branches:
+    branches:
         features:
           default: true
           dismiss_stale_reviews: true
@@ -50,14 +50,14 @@ repositories:
           required_status_checks:
             strict: true
             require_review: true
-      dependency_security:
+    dependency_security:
         alerts: true
         automatic_fixes: true
-      merges:
+    merges:
         allow_squash_merge: true
         allow_merge_commit: true
         allow_rebase_merge: false
-      features:
+    features:
         has_issues: true
         has_wiki: false
         has_projects: false
@@ -92,7 +92,7 @@ repositories:
 
     plugins:
       extends: default
-        teams:
+      teams:
           Product Team: pull
           Triage Team: triage
           Core Team: maintain
@@ -101,7 +101,7 @@ repositories:
 
     themes:
       extends: default
-        teams:
+      teams:
           Product Team: pull
           Triage Team: triage
           Core Team: maintain
@@ -110,7 +110,7 @@ repositories:
 
     integrations:
       extends: default
-        teams:
+      teams:
           Product Team: pull
           Triage Team: triage
           Core Team: maintain
@@ -119,7 +119,7 @@ repositories:
 
     website:
       extends: default
-        teams:
+      teams:
           Website Maintainers: maintain
       features:
         has_issues: true
