@@ -133,7 +133,7 @@ repositories:
   mautic-wordpress: integrations
   language-packs: tools
   plugin-social: plugins
-  theme-nature: theme
+  theme-nature: themes
   website: website
 
 labels_clean: true
