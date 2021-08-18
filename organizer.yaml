@@ -71,58 +71,58 @@ repositories:
       Triage Team: triage
       Core Team: maintain
 
-    security:
-      extends: default
-      teams:
-        Admin: admin
-        Security Team: maintain
-      issues:
-        auto_label:
-          - security
+  security:
+    extends: default
+    teams:
+      Admin: admin
+      Security Team: maintain
+    issues:
+      auto_label:
+        - security
 
-    docs:
-      extends: default
-      teams:
-        Education Team Leaders: maintain
-        Education Team: triage
-      issues:
-        auto_label:
-          - needs-triage
-          - documentation
+  docs:
+    extends: default
+    teams:
+      Education Team Leaders: maintain
+      Education Team: triage
+    issues:
+      auto_label:
+        - needs-triage
+        - documentation
 
-    plugins:
-      extends: default
-      teams:
-          Product Team: pull
-          Triage Team: triage
-          Core Team: maintain
-      features:
-        has_issues: false
+  plugins:
+    extends: default
+    teams:
+        Product Team: pull
+        Triage Team: triage
+        Core Team: maintain
+    features:
+      has_issues: false
 
-    themes:
-      extends: default
-      teams:
-          Product Team: pull
-          Triage Team: triage
-          Core Team: maintain
-      features:
-        has_issues: false
+  themes:
+    extends: default
+    teams:
+        Product Team: pull
+        Triage Team: triage
+        Core Team: maintain
+    features:
+      has_issues: false
 
-    integrations:
-      extends: default
-      teams:
-          Product Team: pull
-          Triage Team: triage
-          Core Team: maintain
-      features:
-        has_issues: true
+  integrations:
+    extends: default
+    teams:
+        Product Team: pull
+        Triage Team: triage
+        Core Team: maintain
+    features:
+      has_issues: true
 
-    website:
-      extends: default
-      teams:
-          Website Maintainers: maintain
-      features:
-        has_issues: true
+  website:
+    extends: default
+    teams:
+        Website Maintainers: maintain
+    features:
+      has_issues: true
 
   # Individual repository assignments-
   # this can be used instead of using Repository Topics.
